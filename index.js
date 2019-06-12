@@ -6,7 +6,7 @@ function lowerCaseDrivers (list) {
   })
 }
 
-function nameToAttributes () {
+function nameToAttributes (list) {
   return list.map(function(driver) {
     
     return { firstName: driverFirst, lastName: driverLast }
